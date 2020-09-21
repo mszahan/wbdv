@@ -1,0 +1,118 @@
+body{
+    font-family: 'Oxygen', sans-serif;  
+    color: #ffffff;
+    
+    background-color:#dbdbdb;
+    font-size: 16px;
+    
+}
+
+#nav_full{
+    background-color:#30615a;
+    border: 0px;
+    border-radius: 0px;
+}
+
+#logo_img{
+    
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 10px 0px;
+    
+}
+
+.navbar-brand{
+    padding-top: 16px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    
+  text-decoration: none;
+    
+}
+
+.navbar-brand h1{
+    color: #fff;
+}
+
+.navbar-brand p{
+    color: #fff;
+    line-height: 1.4;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.2;
+}  
+
+#nav-list a span{
+    font-size: 1.8em;
+   
+}
+
+#nav-list a:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199){
+    
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991){
+    
+}
+
+
+
+@media (max-width:767px){
+    
+    
+    .navbar-toggle{
+        margin-top:5px ;
+        clear: both;
+    }
+   
+   
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    
+    .navbar-brand h1{
+       
+        font-size: 6vw;
+    }
+    
+    
+}
+
