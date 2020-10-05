@@ -89,7 +89,9 @@ body{
 
 
 @media (min-width: 768px) and (max-width: 991){
-    
+  #nav_full{
+      height: 150px;
+  }
 }
 
 
