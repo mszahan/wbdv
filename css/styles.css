@@ -74,13 +74,13 @@ body{
 
 }
 
-
+/*for larger screen */
 @media (min-width: 1200px) {
 
 }
 
 
-
+/* for desktop screen */
 
 @media (min-width: 992px) and (max-width: 1199){
     
@@ -113,6 +113,10 @@ body{
         font-size: 6vw;
     }
     
-    
+   #nav-list a span{
+       font-size: 1.1em;
+       margin-right: 5px;
+       margin-top: 10px;
+   } 
 }
 
