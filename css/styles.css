@@ -76,15 +76,36 @@ body{
 
 /*for larger screen */
 @media (min-width: 1200px) {
+    
+    .container.jumbotron{
+        
+        background-image: url('../images/jumb3.jpg');
+        height: 675px;
+    }
 
 }
+
+
+
+
+
 
 
 /* for desktop screen */
 
 @media (min-width: 992px) and (max-width: 1199){
     
+    .container.jumbotron{
+        background-image: url('../images/jumb2.jpg');
+        height: 558px;
+    }
+    
 }
+
+
+
+
+
 
 
 
@@ -92,7 +113,19 @@ body{
   #nav_full{
       height: 150px;
   }
+  
+  
+  .container.jumbotron{
+      background-image: url('../images/jumb.jpg');
+      height: 432px;
+  }
 }
+
+
+
+
+
+
 
 
 
