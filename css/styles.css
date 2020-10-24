@@ -76,11 +76,10 @@ body{
 
 /*for larger screen */
 @media (min-width: 1200px) {
-    
-    .container.jumbotron{
-        
-        background-image: url('../images/jumb3.jpg');
+    .container .jumbotron{
+        background: url('../images/jumb3.jpg') no-repeat;
         height: 675px;
+        
     }
 
 }
@@ -93,10 +92,9 @@ body{
 
 /* for desktop screen */
 
-@media (min-width: 992px) and (max-width: 1199){
-    
-    .container.jumbotron{
-        background-image: url('../images/jumb2.jpg');
+@media (min-width: 992px) and (max-width: 1199px){
+    .container .jumbotron{
+        background: url('../images/jumb2.jpg') no-repeat;
         height: 558px;
     }
     
@@ -109,13 +107,13 @@ body{
 
 
 
-@media (min-width: 768px) and (max-width: 991){
+@media (min-width: 768px) and (max-width: 991px){
   #nav_full{
       height: 150px;
   }
   
   
-  .container.jumbotron{
+  .container .jumbotron{
       background-image: url('../images/jumb.jpg');
       height: 432px;
   }
