@@ -8,7 +8,7 @@ body{
 }
 
 #nav_full{
-    background-color:#30615a;
+    background-color:#dbdbdb;
     border: 0px;
     border-radius: 0px;
 }
@@ -32,11 +32,11 @@ body{
 }
 
 .navbar-brand h1{
-    color: #fff;
+    color: #000;
 }
 
 .navbar-brand p{
-    color: #fff;
+    color: #000;
     line-height: 1.4;
 }
 
@@ -51,7 +51,7 @@ body{
 
 #nav-list a {
     text-align: center;
-    color: #fff;
+    color: #000;
     font-size: 1.2em;
     line-height: 1.2;
 }  
